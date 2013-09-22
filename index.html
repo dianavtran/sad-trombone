@@ -7,6 +7,16 @@
  	<link href='http://fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
  	<link rel="stylesheet" href="style.css">
     <title>☺</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>	
+
+    <script>
+    	$(document).ready(function(){
+    		$("#show").click(function(){
+        		$("#show").hide();
+        		$("#hide").show();
+    		});
+		});
+	</script>
  </head>
 
  <body>
@@ -17,7 +27,8 @@
 	 	<span class="small">I forgot to bring business cards to XOXOFest</span>
 	 </h1>
 	 <p class="links">➫ <a href="http://twitter.com/dianavtran" target="_blank">The Twitters</a></p>
-	 <p class="links">➫ <a href="mailto:diana@dianatran.com">The electronic mail</a></p>
+	 <div id="show"><p class="links">➫ <a href="#">The electronic mail</a></p></div>
+	 <div id="hide"><p class="links">➫ <a href="mailto:diana@dianatran.com">diana@dianatran.com</a></p></div>
 	</header>
  </body>
  </html>

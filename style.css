@@ -48,3 +48,11 @@ a {
 	color: #333;
 	line-height: .9;
 }
+
+#show {
+	
+}
+
+#hide {
+	display:none;
+}
